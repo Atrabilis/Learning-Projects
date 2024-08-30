@@ -10,7 +10,7 @@ fn first_n_fibonacci_numbers(n:usize)-> Vec<i128>{
 
 }
 fn main() {
-    let fib_numbers = first_n_fibonacci_numbers(10);
+    let fib_numbers = first_n_fibonacci_numbers(20);
     println!("{:#?}",&fib_numbers);
     print!("{}",&fib_numbers.len())
 
